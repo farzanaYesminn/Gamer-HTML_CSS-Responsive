@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar for small device */
+@media (max-width: 767px) {
+    .navcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 40px;
+    
+    }
+    
+    .navlogo{
+       display: flex;
+       justify-content: center;
+       gap: 5px;
+    }
+    
+    .navlogo img{
+       width: 25px;
+       height: 20px;
+       padding-top: 5px;
+    }
+    
+    .navtext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .navabout {
+        gap: 30px;
+        padding-top: 5px;
+        text-decoration: none;
+        color: #3C354F;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .navabout a{
+        text-decoration: none;
+        color: #3C354F;
+        font-size: 12px;
+    }
+
+    .abouttext1{
+        padding: 5px 0 10px 0;
+    }
+    
+    .FollowUs{
+        width: 120px;
+        height: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 5px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: #3C354F;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 8px;
+        background-color: rgba(11, 2, 35, 0.10);
+    }    
+
+    .banner{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFF;;
+
+    }
+
+    .bannerText{
+        padding: 50px 100px ;
+    }
+
+    .bannerImage img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .bannerText h4{
+        color: #0B0223;
+        text-align: left;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .bannerText h1{
+        text-align: left;
+        font-family: Work Sans;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text3{
+        display: flex;
+        gap: 5px;
+        padding: 5px;
+        font-size: 10px;
+    }
+   
+   
+}
+
+/* Navbar for medium device */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .navcontainer{
+        padding: 28px 40px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .navlogo{
+       display: flex;
+       justify-content: center;
+       gap: 10px;
+    }
+    
+    .navlogo img{
+       width: 30px;
+       height: 25px;
+       padding-top: 5px;
+    }
+    
+    .navtext{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .navabout {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 8px;
+        text-decoration: none;
+        color: #3C354F;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .navabout a{
+        text-decoration: none;
+        color: #3C354F;
+    }
+    
+    .FollowUs{
+        width: 200px;
+        height: 36px;
+        padding-top: 8px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        color: #3C354F;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 8px;
+        background-color: rgba(11, 2, 35, 0.10);
+    }    
+
+    /* banner */
+    .banner{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: #FFF;;
+
+    }
+
+    .bannerText{
+        padding: 100px 20px ;
+    }
+
+    .bannerImage img{
+        width: 400px;
+        height: 350px;
+    }
+
+    .bannerText h4{
+        color: #0B0223;
+        text-align: left;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .bannerText h1{
+        text-align: left;
+        font-family: Work Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text3{
+        display: flex;
+        gap: 5px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    /* banner */
+   
+
+  }
+
+
+
+/* Navbar for large device */
+@media (min-width: 1024px) {
+    .navcontainer{
+        padding: 28px 40px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .navlogo{
+       display: flex;
+       justify-content: center;
+       gap: 10px;
+    }
+    
+    .navlogo img{
+       width: 30px;
+       height: 25px;
+       padding-top: 5px;
+    }
+    
+    .navtext{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .navabout {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 8px;
+        text-decoration: none;
+        color: #3C354F;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .navabout a{
+        text-decoration: none;
+        color: #3C354F;
+    }
+    
+    .FollowUs{
+        width: 200px;
+        height: 36px;
+        padding-top: 8px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        color: #3C354F;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 8px;
+        background-color: rgba(11, 2, 35, 0.10);
+    }    
+
+    /* banner */
+    .banner{
+        display:flex;
+        justify-content: center;
+        background-color: #FFF;;
+     
+
+    }
+
+    .bannerText{
+        padding: 140px 140px ;
+    }
+
+    .bannerImage img{
+        width: 500px;
+        height: 500px;
+    }
+
+    .bannerText h4{
+        color: #0B0223;
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .bannerText h1{
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 95px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text3{
+        display: flex;
+        gap: 5px;
+        padding: 5px;
+    }
+    /* banner */
+  }
+
+
+
+ 
