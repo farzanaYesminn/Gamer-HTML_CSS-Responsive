@@ -124,8 +124,180 @@
         padding: 5px;
         font-size: 10px;
     }
-   
-   
+    .bannerButtonDesign{
+        padding: 5px 10px;
+        border-radius: 48px;
+        border: none;
+        color: white;
+        font-size: 5px;
+        cursor: pointer;
+    }
+    /* banner */
+
+    /* we are gamer */
+    .weRgamer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .weRgamerImage img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .weRgameText{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+
+
+    }
+
+    .weRgamer h1{
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .weRgamer p{
+        width: 320px;
+
+        color: #534C64;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .weRgamer h4{
+        color: #534C64;
+        font-family: Work Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px; 
+    }
+
+    .weRgamer h2{
+        color: #534C64;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    /* we are gamer */
+
+    /* Funny Video */
+    .funnyVideo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15%;
+    }
+
+
+
+    .FVtext h2{
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .FVtext p{
+        color: #534C64;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        line-height: 30px;
+        margin-bottom: 5%;
+    }
+
+    .FVimg{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .FVimgD p{
+        padding-top: 0.5%;
+        color: #534C64;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; 
+    }
+
+    .FVimgD img{
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+    }
+    
+    /* Funny Video */
+
+    /* footer */
+    .footerlogo{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 5%;
+      
+    }
+    .footerlogo img{
+       width: 50px;
+       height: 30px;
+      
+    }
+    .footerlogo h1{
+       font-size: 30px;
+      
+    }
+
+    .footer{
+        background: #0B0223;
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+
+    }
+
+    .footerText1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap:10px;
+    }
+    .footerText2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap:6px;
+
+    }
+    .footerIcon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap:10px;
+        column-gap:20px;
+    }
+
+
+    /* footer */
 }
 
 /* Navbar for medium device */
@@ -239,10 +411,183 @@
         padding: 5px;
         font-size: 10px;
     }
-    /* banner */
-   
 
-  }
+    .bannerButtonDesign{
+        padding: 10px 20px;
+        border-radius: 48px;
+        border: none;
+        color: white;
+        font-size: 8px;
+        cursor: pointer;
+    }
+    /* banner */
+
+    /* we are gamer */
+    .weRgamer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+        text-align: end;
+    }
+
+    .weRgamerImage img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .weRgameText{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+
+    }
+
+    .weRgamer h1{
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .weRgamer p{
+        width: 350px;
+        text-align: right;
+        color: #534C64;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .weRgamer h4{
+        color: #534C64;
+        text-align: right;
+        font-family: Work Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px; 
+    }
+
+    .weRgamer h2{
+        color: #534C64;
+        font-family: Work Sans;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    /* we are gamer */
+
+    /* Funny Video */
+    .funnyVideo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15%;
+    }
+
+
+
+    .FVtext h2{
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .FVtext p{
+        color: #534C64;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 5%;
+    }
+
+    .FVimg{
+        width: 400px;
+        height: 560.331px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .FVimgD p{
+        width: 200px;
+        padding-top: 2%;
+        color: #534C64;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px; /* 150% */
+    }
+
+    .FVimgD img{
+        width: 200px;
+        height: 170px;
+    }
+    
+    /* Funny Video */
+
+    /* footer */
+    .footerlogo{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 5%;
+      
+    }
+    .footerlogo img{
+       width: 50px;
+       height: 30px;
+      
+    }
+    .footerlogo h1{
+       font-size: 30px;
+      
+    }
+
+    .footer{
+        background: #0B0223;
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+
+    }
+
+    .footerText1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap:10px;
+    }
+    .footerText2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap:6px;
+
+    }
+    .footerIcon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap:10px;
+        column-gap:20px;
+    }
+
+
+    /* footer */
+}
+   
 
 
 
@@ -355,8 +700,180 @@
         gap: 5px;
         padding: 5px;
     }
+
+    .bannerButton{
+        gap: 10px;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .bannerButtonDesign{
+        padding: 10px 30px;
+        border-radius: 48px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
     /* banner */
-  }
+
+    /* we are gamer */
+    .weRgamer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center;
+        text-align: end;
+    }
+
+    .weRgameText{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .weRgamerImage img{
+        width: 500px;
+        height: 300px;
+    }
+
+    .weRgamer h1{
+        font-size: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .weRgamer p{
+        width: 520px;
+        color: #534C64;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .weRgamer h4{
+        color: #534C64;
+        text-align: right;
+        font-family: Work Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px; 
+    }
+
+    .weRgamer h2{
+        color: #534C64;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px;
+    }
+    /* we are gamer */
+
+    /* Funny Video */
+    .funnyVideo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+
+
+    .FVtext h2{
+        text-align: center;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .FVtext p{
+        color: #534C64;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 5%;
+    }
+
+    .FVimg{
+        display: flex;
+        gap: 24px;
+    }
+    
+    .FVimgD p{
+        width: 342px;
+        padding-top: 2%;
+        color: #534C64;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px; /* 150% */
+    }
+
+    .FVimgD img{
+        width: 300px;
+        height: 300px;
+      
+    }
+    
+    /* Funny Video */
+
+    /* footer */
+    .footerlogo{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 5%;
+      
+    }
+    .footerlogo img{
+       width: 50px;
+       height: 30px;
+      
+    }
+    .footerlogo h1{
+       font-size: 30px;
+      
+    }
+
+    .footer{
+        background: #0B0223;
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+
+    }
+
+    .footerText1{
+        display: flex;
+        gap:15px;
+    }
+    .footerText2{
+        display: flex;
+        gap:15px;
+
+    }
+    .footerIcon{
+        display: flex;
+        gap:20px;
+    }
+
+
+    /* footer */
+}
+  
 
 
 
