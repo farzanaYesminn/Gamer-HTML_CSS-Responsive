@@ -247,6 +247,214 @@
     
     /* Funny Video */
 
+    /* Play Instant */
+    .playInstant{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .playInstantText h1{
+        width: 300px;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; 
+        padding-top: 15%;
+    }
+
+    .playInstantText p{
+        width: 300px;
+        color: #534C64;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        padding-bottom: 15%;
+    }
+
+    .PIimage2 img{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -60px;
+        left:-30px;
+        
+    }
+
+    .PIimage1 img{
+        width: 220px;
+        height: 220px;
+    }
+   
+    /* Play Instant */
+
+    /* Play Online */
+    .playOnline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .playOnlineText h1{
+        width: 300px;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; 
+        padding-top: 15%;
+    }
+
+    .playOnlineText p{
+        width: 300px;
+        color: #534C64;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        padding-bottom: 15%;
+    }
+
+    .POimage2 img{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -60px;
+        left:-30px;
+        
+    }
+
+    .POimage1 img{
+        width: 220px;
+        height: 220px;
+    }
+   
+    /* Play Instant */
+
+    /* Customer Review */
+    .customerReview{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 8%;
+        align-items: center;
+        justify-content: center;
+        margin: 20% 0;
+        padding-bottom: 20%;
+        background-color: rgba(255, 66, 165, 1), rgba(255, 66, 165, 1);
+    }
+
+    .reviewDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+      
+    }
+
+    .reviewDesign:hover{
+    border:10px;
+    border-radius: 50%;
+    border-color: #F948B2;
+    cursor: pointer; 
+    }
+
+    .reviewDesign p{
+        width: 80px;
+        color: #0B0223;
+        font-size: 15px;
+        font-weight: 400;   
+    }
+
+    /* Customer Review */
+
+     /* Career */
+     .career{
+        background-color:#FF42A5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:0 100px ;
+        color: white;
+    }
+
+    .careertext{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20%;
+        text-align: center;
+
+    }
+    .careertextTitle p{
+        width: 250px;
+        color: #FFF;
+        padding:5%;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px; /* 166.667% */
+
+    }
+    .careertextTitle h1{
+        text-align: center;
+        color: #FFF;
+        font-size: 30px;
+        padding: 10px 0;
+    }
+
+    .careerTextLR{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .careertextLeft{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .careertextLeft p{
+        font-size: 10px;
+    }
+
+    .careertextRight p{
+        font-size: 10px;
+    }
+    .careertextRight{
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .careerImage img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .careerButton{
+        margin-top: 5%;
+    }
+
+    .careerButton a{
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px 10px;
+        font-size: 10px;
+        color: #FF42A5;
+
+    }
+  
+    /* Career */
+
     /* footer */
     .footerlogo{
         display: flex;
@@ -305,7 +513,9 @@
     .navcontainer{
         padding: 28px 40px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 50px;
     
     }
     
@@ -488,6 +698,7 @@
     .funnyVideo{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         margin-top: 15%;
     }
 
@@ -513,27 +724,228 @@
 
     .FVimg{
         width: 400px;
-        height: 560.331px;
+        height: 400px;
         display: flex;
-        gap: 10px;
+        gap: 5px;
+        margin-left: 10%;
     }
     
     .FVimgD p{
-        width: 200px;
+        width: 100px;
         padding-top: 2%;
         color: #534C64;
         font-size: 15px;
         font-style: normal;
         font-weight: 500;
-        line-height: 30px; /* 150% */
+        line-height: 30px;
     }
 
     .FVimgD img{
-        width: 200px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
     }
     
     /* Funny Video */
+
+    /* Customer Review */
+    .customerReview{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10%;
+        align-items: center;
+        justify-content: center;
+        margin: 10% 0;
+        background-color: rgba(255, 66, 165, 1), rgba(255, 66, 165, 1);
+        padding-bottom: 10%;
+      
+    }
+
+    .reviewDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+      
+    }
+
+    .reviewDesign:hover{
+    border:10px;
+    border-radius: 50%;
+    border-color: #F948B2;
+    cursor: pointer;
+      
+    }
+
+    .reviewDesign p{
+        color: #0B0223;
+        width: 10%;
+        font-size: 15px;
+        font-weight: 400;
+      
+    }
+    /* Customer Review */
+
+        /* Play Instant */
+        .playInstant{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+    
+        .playInstantText h1{
+            width: 300px;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 50px; 
+            padding-bottom: 5%;
+        }
+    
+        .playInstantText p{
+            width: 300px;
+            color: #534C64;
+            text-align: left;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    
+        .PIimage2 img{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: -60px;
+            left:-50px;
+            
+        }
+    
+        .PIimage1 img{
+            width: 300px;
+            height: 300px;
+        }
+       
+        /* Play Instant */
+        /* Play Online */
+        .playOnline{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: center;
+            gap: 10%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+    
+        .playOnlineText h1{
+            width: 300px;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 50px; 
+            padding-bottom: 5%;
+        }
+    
+        .playOnlineText p{
+            width: 300px;
+            color: #534C64;
+            text-align: left;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    
+        .POimage2 img{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: -60px;
+            right:-250px;
+            
+        }
+    
+        .POimage1 img{
+            width: 300px;
+            height: 300px;
+        }
+       
+        /* Play Online */
+
+        /* Career */
+        .career{
+            background-color:#FF42A5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding:0 100px ;
+            color: white;
+        }
+    
+        .careertext{
+            display: flex;
+            flex-direction: column;
+    
+        }
+        .careertextTitle p{
+            width: 200px;
+            color: #FFF;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 20px; /* 166.667% */
+    
+        }
+        .careertextTitle h1{
+            width: 4%;
+            color: #FFF;
+            font-size: 30px;
+            padding: 10px 0;
+        }
+    
+        .careerTextLR{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        .careertextLeft{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .careertextLeft p{
+            font-size: 10px;
+        }
+    
+        .careertextRight p{
+            font-size: 10px;
+        }
+        .careertextRight{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .careerImage img{
+            width: 400px;
+            height: 400px;
+        }
+    
+        .careerButton{
+            margin-top: 5%;
+        }
+    
+        .careerButton a{
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px 10px;
+            font-size: 10px;
+            color: #FF42A5;
+    
+        }
+      
+        /* Career */
 
     /* footer */
     .footerlogo{
@@ -596,7 +1008,9 @@
     .navcontainer{
         padding: 28px 40px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 400px;
     
     }
     
@@ -779,7 +1193,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
 
@@ -804,33 +1218,227 @@
 
     .FVimg{
         display: flex;
-        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
     }
     
     .FVimgD p{
-        width: 342px;
+        width: 250px;
         padding-top: 2%;
         color: #534C64;
         font-size: 20px;
         font-style: normal;
-        font-weight: 500;
-        line-height: 30px; /* 150% */
+        font-weight: 300;
+        line-height: 30px;
     }
 
     .FVimgD img{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
       
     }
     
     /* Funny Video */
 
+    /* Play Instant */
+    .playInstant{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        padding-top: 10%;
+    }
+
+    .playInstantText h1{
+        width: 300px;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; 
+        padding-bottom: 5%;
+    }
+
+    .playInstantText p{
+        width: 300px;
+        color: #534C64;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .PIimage2 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: -150px;
+        left:-50px;
+        
+    }
+
+    .PIimage1 img{
+        width: 500px;
+        height: 500px;
+    }
+   
+    /* Play Instant */
+    /* Play Online */
+    .playOnline{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        padding-top: 10%;
+    }
+
+    .playOnlineText h1{
+        width: 300px;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; 
+        padding-bottom: 5%;
+    }
+
+    .playOnlineText p{
+        width: 300px;
+        color: #534C64;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .POimage2 img{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: -150px;
+        right:-370px;
+        
+    }
+
+    .POimage1 img{
+        width: 500px;
+        height: 500px;
+    }
+   
+    /* Play Online */
+
+    /* Customer Review */
+    .customerReview{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        row-gap: 10%;
+        align-items: center;
+        justify-content: center;
+        margin: 10% 0;
+        background-color: rgba(255, 66, 165, 1), rgba(255, 66, 165, 1);
+    }
+
+    .reviewDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+      
+    }
+
+    .reviewDesign:hover{
+    border:10px;
+    border-radius: 50%;
+    border-color: #F948B2;
+    cursor: pointer;
+      
+    }
+
+    .reviewDesign p{
+        color: #0B0223;
+        font-size: 15px;
+        font-weight: 400;
+      
+    }
+
+
+
+    /* Customer Review */
+
+    /* Career */
+    .career{
+        background-color:#FF42A5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding:5% 100px ;
+        color: white;
+    }
+
+    .careertext{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .careertextTitle p{
+        width: 480px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+
+    }
+    .careertextTitle h1{
+        width: 480px;
+        color: #FFF;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 50px; /* 125% */
+    }
+
+    .careerTextLR{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .careertextLeft{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .careertextRight{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .careerImage img{
+        width: 450px;
+        height: 450px;
+    }
+
+    .careerButton{
+        margin-top: 5%;
+    }
+
+    .careerButton a{
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px 20px;
+        color: #FF42A5;
+
+    }
+  
+    /* Career */
+
     /* footer */
     .footerlogo{
         display: flex;
-       justify-content: center;
-       align-items: center;
-       gap: 5%;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
       
     }
     .footerlogo img{
@@ -840,7 +1448,6 @@
     }
     .footerlogo h1{
        font-size: 30px;
-      
     }
 
     .footer{
